@@ -1,0 +1,24 @@
+:root {
+  --primary-font-family: 'Poppins', verdana, arial, sans-serif;
+  --backgroundLogin: url('../image/background-login.jpg');
+  --verticalHeight: 100vh;
+}
+
+* {
+  font-family: var(--primary-font-family);
+}
+
+.fill-image {
+  height: var(--verticalHeight);
+  background: var(--backgroundLogin) no-repeat;
+  background-size: cover;
+}
+
+.bg-gradient-primary {
+  background-image: linear-gradient(180deg, #74b9ff 10%, #0984e3 100%) !important;
+}
+
+.dropdown-background {
+  background: transparent !important;
+  border: none !important;
+}
